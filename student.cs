@@ -31,7 +31,7 @@ namespace hometask17marchclass
 
 
 
-            public void Main()
+            public void GetInfo()
 
             {
                 Student GetInfo = new Student("Gunel", "Shikarova", "Master", 94);
