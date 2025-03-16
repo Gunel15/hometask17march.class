@@ -12,3 +12,4 @@ C:\Users\V&V\source\repos\hometask17marchclass\hometask17marchclass\obj\Debug\ne
 C:\Users\V&V\source\repos\hometask17marchclass\hometask17marchclass\obj\Debug\net8.0\hometask17marchclass.pdb
 C:\Users\V&V\source\repos\hometask17marchclass\hometask17marchclass\obj\Debug\net8.0\hometask17marchclass.genruntimeconfig.cache
 C:\Users\V&V\source\repos\hometask17marchclass\hometask17marchclass\obj\Debug\net8.0\ref\hometask17marchclass.dll
+C:\Users\V&V\source\repos\hometask17marchclass\hometask17marchclass\obj\Debug\net8.0\hometask17marchclass.sourcelink.json

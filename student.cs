@@ -7,20 +7,43 @@ using System.Threading.Tasks;
 
 namespace hometask17marchclass
 {
-    class Student
-    { public string Name {  get; set; }
-        public string Surname { get; set; }
-        public string Group { get; set; }
-        public float Point { get; set; }
-        public bool isGraduated { get; set; }
 
-        public Student(string name, string surname, string group, float point)
+        class Student
         {
-            Name = name;
-            Surname = surname;
-            Group = group;
-            Point = point;
+            public string Name;
+            public string Surname;
+            public string Group;
+            public float Point;
+            public bool isGraduated;
+
+            public Student(string name, string surname, string group, byte point)
+            {
+                Name = name;
+                Surname = surname;
+                Group = group;
+                Point = point;
+
+            }
+
+
+
+
+
+
+
+            public void Main()
+
+            {
+                Student GetInfo = new Student("Gunel", "Shikarova", "Master", 94);
+
+
+                Console.WriteLine($"{GetInfo.Name} {GetInfo.Surname} {GetInfo.Group} {GetInfo.Point} ");
+
+            }
+
         }
+    }
+
         
 
 
@@ -31,7 +54,4 @@ namespace hometask17marchclass
 
 
 
-    }
-
-
-}
+ 
