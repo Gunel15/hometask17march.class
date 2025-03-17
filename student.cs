@@ -38,13 +38,24 @@ namespace hometask17marchclass
         //    Console.WriteLine($"{GetInfo.Name} {GetInfo.Surname} {GetInfo.Group} {GetInfo.Point} ");
 
         //}
-        
-       
-        public void CheckGraduation()
-        { if (isGraduated) 
-            { Console.WriteLine($"{Name} {Surname} mezun olub"); }
-           else
-             Console.WriteLine($"{Name} {Surname} mezun olmayib"); 
+
+
+        //public void CheckGraduation()
+        //{ if (isGraduated) 
+        //    { Console.WriteLine($"{Name} {Surname} mezun olub"); }
+        //   else
+        //     Console.WriteLine($"{Name} {Surname} mezun olmayib"); 
+        //}
+
+        public void GetDiplomDegree()
+        {
+            if (Point < 65)
+                Console.WriteLine("yoxdur");
+            else if (Point < 80 && Point >= 65)
+                Console.WriteLine("adi");
+            else if (Point < 90 && Point >= 80)
+                Console.WriteLine("sheref");
+            else Console.WriteLine("yuksek sheref");
         }
     }
 }

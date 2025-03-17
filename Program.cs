@@ -16,9 +16,20 @@ namespace hometask17marchclass
 
         //}
 
-        static void Main()
-       { Student student = new Student("Gunel", "Shikarova", "Master", 94);
-        student.CheckGraduation();}
+       // static void Main()
+       //{ Student student = new Student("Gunel", "Shikarova", "Master", 94);
+       // student.CheckGraduation();}
         
+
+        static void Main()
+        {
+            Student student = new Student("Gunel", "Shikarova", "Master", 94);
+            student.GetDiplomDegree();
+
+
+
+
+
+        }
     }
 }
